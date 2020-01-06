@@ -17,9 +17,9 @@ class String
   def count_sentences
     self.split(/[.?!]/).filter do |possible_sentence|
       possible_sentence.length > 0
-    end
+    end.length
   end
 end
 
 # p "What's your name?".question?
-"This, well, is a sentence. This is too!! And so is this, I think? Woo...".count_sentences
+p "This, well, is a sentence. This is too!! And so is this, I think? Woo...".count_sentences
