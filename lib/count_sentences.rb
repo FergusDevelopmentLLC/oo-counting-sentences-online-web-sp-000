@@ -15,8 +15,9 @@ class String
   end
 
   def count_sentences
-
+    p self.split(/[.,?,!,]/)
   end
 end
 
 p "What's your name?".question?
+p "This, well, is a sentence. This is too!! And so is this, I think? Woo...".count_sentences
