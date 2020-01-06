@@ -20,7 +20,7 @@ class String
     # end.length
 
     p self.split(/\.|\?|\!/)
-    
+
   end
 end
 
