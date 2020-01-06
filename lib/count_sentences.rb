@@ -19,7 +19,11 @@ class String
     #   possible_sentence.length > 0
     # end.length
 
-    self.split(/\.|\?|\!/).delete_if {|sentence| sentence.length < 2}.length
+    #self.split(/\.|\?|\!/).delete_if {|sentence| sentence.length < 2}.length
+
+    self.split(/\.|\?|\!/).delete_if do |sentence| 
+      sentence.length < 2
+    end.length
 
   end
 end
