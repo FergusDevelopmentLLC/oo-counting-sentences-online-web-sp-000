@@ -15,7 +15,7 @@ class String
   end
 
   def count_sentences
-    self.split(/[.?!]/).filter do |possible_sentence|
+    self.split(/\.\?\!/).filter do |possible_sentence|
       possible_sentence.length > 0
     end.length
   end
