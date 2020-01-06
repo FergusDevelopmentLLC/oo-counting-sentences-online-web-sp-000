@@ -18,3 +18,5 @@ class String
 
   end
 end
+
+p "What's your name?".question?
