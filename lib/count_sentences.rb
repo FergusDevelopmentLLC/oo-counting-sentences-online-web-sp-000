@@ -18,7 +18,8 @@ class String
     self.split(/[.?!]/).filter do |possible_sentence|
       # trimmed_sentence = possible_sentence.strip!
       # p trimmed_sentence
-      p possible_sentence
+      # p possible_sentence
+      p possible_sentence.length
     end
   end
 end
