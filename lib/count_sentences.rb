@@ -21,7 +21,7 @@ class String
 
     #self.split(/\.|\?|\!/).delete_if {|sentence| sentence.length < 2}.length
 
-    self.split(/\.|\?|\!/).delete_if do |sentence| 
+    self.split(/\.|\?|\!/).delete_if do |sentence|
       sentence.length < 2
     end.length
 
