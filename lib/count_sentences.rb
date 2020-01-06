@@ -25,4 +25,4 @@ class String
 end
 
 # p "What's your name?".question?
-"This, well, is a sentence. This is too!! And so is this, I think? Woo...".count_sentences
+p "This, well, is a sentence. This is too!! And so is this, I think? Woo...".count_sentences
